@@ -2,8 +2,8 @@
   "name": "vcl",
   "displayName": "vcl",
   "description": "vcl",
-  "version": "0.0.1",
-  "publisher": "vcl",
+  "version": "0.1.0",
+  "publisher": "thomas-baumgaertner",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -32,9 +32,5 @@
         "path": "./syntaxes/vcl.json"
       }
     ]
-  },
-  "dependencies": {
-    "cson": "^3.0.2",
-    "cson-cli": "^1.0.2"
   }
 }

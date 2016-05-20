@@ -1,13 +1,6 @@
-# README
-## This is the README for your extension "vcl"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Syntax coloring for vcl and vcl.j2
+## This Visual Studio Code extension adds syntax coloring for the Varnish (https://www.varnish-cache.org) configuration language
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+It's based on the language extension 'language-vcl' by jwfuller for the Atom editor (https://atom.io/packages/language-vcl)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+The extension provides support for syntax coloring of vcl files and basic support for Ansible Jinja2 vcl.j2 files.
