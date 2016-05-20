@@ -2,7 +2,12 @@
   "name": "vcl",
   "displayName": "VCL - Varnish Configuration Language",
   "description": "Syntax highlighting for Varnish Configuration Language and Ansible templates for Varnish ",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "icon": "images/varnish.jpg",
+    "galleryBanner": {
+        "color": "#5c2d91",
+        "theme": "dark"
+    },
   "publisher": "thomas-baumgaertner",
   "engines": {
     "vscode": "^1.0.0"
