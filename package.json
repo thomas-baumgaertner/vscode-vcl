@@ -1,0 +1,40 @@
+{
+  "name": "vcl",
+  "displayName": "vcl",
+  "description": "vcl",
+  "version": "0.0.1",
+  "publisher": "vcl",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vcl",
+        "aliases": [
+          "VCL",
+          "vcl"
+        ],
+        "extensions": [
+          ".vcl",
+          ".vcl.j2"
+        ],
+        "configuration": "./vcl.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vcl",
+        "scopeName": "source.varnish.vcl",
+        "path": "./syntaxes/vcl.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "cson": "^3.0.2",
+    "cson-cli": "^1.0.2"
+  }
+}
